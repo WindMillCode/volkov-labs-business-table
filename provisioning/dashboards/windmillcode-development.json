@@ -785,7 +785,7 @@
         }
       ],
       "title": "Windmillcode Development",
-      "type": "volkovlabs-table-panel"
+      "type": "windmillcode-table-panel"
     }
   ],
   "preload": false,

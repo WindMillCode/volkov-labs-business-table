@@ -321,12 +321,13 @@ export const editableColumnEditorsRegistry = createEditableColumnEditorsRegistry
 
           // Ensure the parsed value is an array
           return Array.isArray(parsedFiles) ? parsedFiles : [];
-        } catch (err) {
-          const appEvents = getAppEvents();
-          appEvents.publish({
-            type: AppEvents.alertError.name,
-            payload: ['An error occurred while parsing file data. Please try again later or contact support if the issue persists.',err],
-          })
+        } catch  {
+          // const appEvents = getAppEvents();
+          // appEvents.publish({
+          //   type: AppEvents.alertError.name,
+          //   payload: ['An error occurred while parsing file data. Please try again later or contact support if the issue persists.',err],
+          // })
+
           return [];
         }
       }, [value]);
