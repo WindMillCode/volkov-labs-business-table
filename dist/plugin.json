@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "dependencies": {
+    "grafanaDependency": ">=10.3.0",
+    "plugins": []
+  },
+  "id": "volkovlabs-table-panel",
+  "info": {
+    "author": {
+      "name": "Windmillcode",
+      "url": "https://volkovlabs.io"
+    },
+    "description": "Simplify data visualization in table format",
+    "keywords": ["table"],
+    "links": [
+      {
+        "name": "Documentation",
+        "url": "https://volkovlabs.io/plugins/business-table/"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/volkovlabs/business-table"
+      }
+    ],
+    "logos": {
+      "large": "img/logo.svg",
+      "small": "img/logo.svg"
+    },
+    "screenshots": [
+      {
+        "name": "Panel",
+        "path": "img/dashboard.png"
+      }
+    ],
+    "updated": "2025-02-13",
+    "version": "2.2.0"
+  },
+  "name": "Windmillcode Business Table",
+  "type": "panel"
+}
