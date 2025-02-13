@@ -7,7 +7,7 @@
   "id": "volkovlabs-table-panel",
   "info": {
     "author": {
-      "name": "Volkov Labs",
+      "name": "Windmillcode",
       "url": "https://volkovlabs.io"
     },
     "description": "Simplify data visualization in table format",
@@ -35,6 +35,6 @@
     "updated": "%TODAY%",
     "version": "%VERSION%"
   },
-  "name": "Business Table",
+  "name": "Windmillcode Business Table",
   "type": "panel"
 }

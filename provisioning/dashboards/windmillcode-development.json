@@ -461,6 +461,242 @@
                 }
               }
             }
+          },
+          {
+            "actionsColumnConfig": {
+              "alignment": "start",
+              "fontSize": "md",
+              "label": "",
+              "width": {
+                "auto": false,
+                "value": 100
+              }
+            },
+            "addRow": {
+              "enabled": false,
+              "permission": {
+                "mode": "",
+                "userRole": []
+              },
+              "request": {
+                "datasource": "",
+                "payload": {}
+              }
+            },
+            "deleteRow": {
+              "enabled": false,
+              "permission": {
+                "mode": "",
+                "userRole": []
+              },
+              "request": {
+                "datasource": "",
+                "payload": {}
+              }
+            },
+            "expanded": false,
+            "items": [
+              {
+                "aggregation": "none",
+                "appearance": {
+                  "alignment": "start",
+                  "background": {
+                    "applyToRow": false
+                  },
+                  "colors": {},
+                  "header": {
+                    "fontSize": "md"
+                  },
+                  "width": {
+                    "auto": true,
+                    "min": 20,
+                    "value": 100
+                  },
+                  "wrap": true
+                },
+                "edit": {
+                  "editor": {
+                    "type": "string"
+                  },
+                  "enabled": false,
+                  "permission": {
+                    "mode": "",
+                    "userRole": []
+                  }
+                },
+                "enabled": true,
+                "field": {
+                  "name": "service",
+                  "source": "Sub tables"
+                },
+                "filter": {
+                  "enabled": false,
+                  "mode": "client",
+                  "variable": ""
+                },
+                "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
+                "group": true,
+                "label": "",
+                "newRowEdit": {
+                  "editor": {
+                    "type": "string"
+                  },
+                  "enabled": false
+                },
+                "objectId": "",
+                "pin": "",
+                "preformattedStyle": false,
+                "scale": "auto",
+                "showingRows": 20,
+                "sort": {
+                  "descFirst": false,
+                  "enabled": false
+                },
+                "type": "auto"
+              },
+              {
+                "aggregation": "none",
+                "appearance": {
+                  "alignment": "start",
+                  "background": {
+                    "applyToRow": false
+                  },
+                  "colors": {},
+                  "header": {
+                    "fontSize": "md"
+                  },
+                  "width": {
+                    "auto": true,
+                    "min": 20,
+                    "value": 100
+                  },
+                  "wrap": true
+                },
+                "edit": {
+                  "editor": {
+                    "type": "string"
+                  },
+                  "enabled": false,
+                  "permission": {
+                    "mode": "",
+                    "userRole": []
+                  }
+                },
+                "enabled": true,
+                "field": {
+                  "name": "title",
+                  "source": "Sub tables"
+                },
+                "filter": {
+                  "enabled": false,
+                  "mode": "client",
+                  "variable": ""
+                },
+                "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
+                "group": false,
+                "label": "",
+                "newRowEdit": {
+                  "editor": {
+                    "type": "string"
+                  },
+                  "enabled": false
+                },
+                "objectId": "",
+                "pin": "",
+                "preformattedStyle": false,
+                "scale": "auto",
+                "showingRows": 20,
+                "sort": {
+                  "descFirst": false,
+                  "enabled": false
+                },
+                "type": "auto"
+              },
+              {
+                "aggregation": "none",
+                "appearance": {
+                  "alignment": "start",
+                  "background": {
+                    "applyToRow": false
+                  },
+                  "colors": {},
+                  "header": {
+                    "fontSize": "md"
+                  },
+                  "width": {
+                    "auto": true,
+                    "min": 20,
+                    "value": 100
+                  },
+                  "wrap": true
+                },
+                "edit": {
+                  "editor": {
+                    "type": "string"
+                  },
+                  "enabled": false,
+                  "permission": {
+                    "mode": "",
+                    "userRole": []
+                  }
+                },
+                "enabled": true,
+                "field": {
+                  "name": "order",
+                  "source": "Sub tables"
+                },
+                "filter": {
+                  "enabled": false,
+                  "mode": "client",
+                  "variable": ""
+                },
+                "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
+                "group": false,
+                "label": "",
+                "newRowEdit": {
+                  "editor": {
+                    "type": "string"
+                  },
+                  "enabled": false
+                },
+                "objectId": "",
+                "pin": "",
+                "preformattedStyle": false,
+                "scale": "auto",
+                "showingRows": 20,
+                "sort": {
+                  "descFirst": false,
+                  "enabled": true
+                },
+                "type": "auto"
+              }
+            ],
+            "name": "SubTables",
+            "pagination": {
+              "defaultPageSize": 10,
+              "enabled": false,
+              "mode": "client"
+            },
+            "showHeader": true,
+            "update": {
+              "datasource": "",
+              "payload": {}
+            }
           }
         ],
         "tabsSorting": false,
@@ -471,6 +707,66 @@
       },
       "pluginVersion": "2.1.0",
       "targets": [
+        {
+          "datasource": {
+            "type": "marcusolsson-static-datasource",
+            "uid": "P1D2C73DC01F2359B"
+          },
+          "frame": {
+            "fields": [
+              {
+                "config": {},
+                "name": "service",
+                "type": "string",
+                "values": [
+                  "Filler - Cheeks",
+                  "Filler - Cheeks",
+                  "Filler - Cheeks",
+                  "Filler - Cheeks",
+                  "IV Hydration - All over beauty!",
+                  "IV Hydration - All over beauty!",
+                  "IV Hydration - All over beauty!"
+                ]
+              },
+              {
+                "config": {},
+                "name": "title",
+                "type": "string",
+                "values": [
+                  "Physical Therapy Rehabilitation Plan 765",
+                  "Physical Therapy Rehabilitation Plan 765",
+                  "Physical Therapy Rehabilitation Plan 765",
+                  "Physical Therapy Rehabilitation Plan 765",
+                  "  Respiratory Therapy Routine Plan 359",
+                  "  Respiratory Therapy Routine Plan 359",
+                  "  Respiratory Therapy Routine Plan 359"
+                ]
+              },
+              {
+                "config": {},
+                "name": "order",
+                "type": "number",
+                "values": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  0,
+                  1,
+                  2
+                ]
+              }
+            ],
+            "meta": {
+              "custom": {
+                "customCode": "const result = {\n  ...frame,\n  fields: frame.fields.map((field) => ({\n    ...field,\n    values: []\n  }))\n}\n\nreturn Promise.resolve(result);",
+                "valuesEditor": "manual"
+              }
+            }
+          },
+          "hide": false,
+          "refId": "Sub tables"
+        },
         {
           "datasource": {
             "type": "marcusolsson-static-datasource",
@@ -499,7 +795,7 @@
             "name": ""
           },
           "hide": false,
-          "refId": "Windmillcode Development"
+          "refId": "datetime and file upload"
         }
       ],
       "title": "Windmillcode Development",
@@ -554,6 +850,6 @@
   "timezone": "browser",
   "title": "Windmillcode Development",
   "uid": "edxke3hyi04cgf",
-  "version": 6,
+  "version": 10,
   "weekStart": ""
 }
