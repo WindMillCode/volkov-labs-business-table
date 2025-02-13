@@ -308,7 +308,7 @@ export const editableColumnEditorsRegistry = createEditableColumnEditorsRegistry
       </InlineFieldRow>
     ),
     // Use a proper component name so we can call React hooks inside without lint errors
-    control: function FileControl({ value, onChange, config, isSaving }) {
+    control: function FileControl({ value, onChange, config }) {
       const [error, setError] = React.useState<string | null>(null);
 
       const parsedValue = React.useMemo(() => {
@@ -425,7 +425,7 @@ export const editableColumnEditorsRegistry = createEditableColumnEditorsRegistry
             InlineField only allows one direct child.
             So we wrap the FileDropzone in InlineField, then show the error outside.
           */}
-          <InlineField label="File Upload" disabled={isSaving} grow>
+          {/* <InlineField label="File Upload" disabled={isSaving} grow> */}
             <FileDropzone
               options={{
                 accept: config.mimeType?.join(',') || undefined,
@@ -436,7 +436,7 @@ export const editableColumnEditorsRegistry = createEditableColumnEditorsRegistry
               // This prop is for your testing or data ID usage
               data-testid={TEST_IDS.editableCell.fieldFile.selector()}
             />
-          </InlineField>
+          {/* </InlineField> */}
 
           {error && (
             <div style={{ color: 'red', marginTop: '8px' }}>
