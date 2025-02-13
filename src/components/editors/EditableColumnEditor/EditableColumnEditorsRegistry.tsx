@@ -1,4 +1,5 @@
-import { dateTime } from '@grafana/data';
+import { dateTime,AppEvents } from '@grafana/data';
+import { getAppEvents } from '@grafana/runtime';
 import { DateTimePicker, FileDropzone, InlineField, InlineFieldRow, InlineSwitch, Input, Label, Select, TextArea } from '@grafana/ui';
 import { NumberInput } from '@volkovlabs/components';
 import React, { ChangeEvent } from 'react';
@@ -13,8 +14,6 @@ import {
 } from '@/utils';
 
 import { DateEditor, QueryOptionsEditor } from './components';
-import { AppEvents } from '@grafana/data';
-import { getAppEvents } from '@grafana/runtime';
 
 /**
  * Editable Column Editors Registry
@@ -158,7 +157,7 @@ export const editableColumnEditorsRegistry = createEditableColumnEditorsRegistry
       const appEvents = getAppEvents();
       return (
       <div
-        onKeyDown={(e:any) => {
+        onKeyDown={(e: any) => {
           if (!config.manualInputIsEnabled && !['Tab', 'Shift', 'ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(e.key)) {
             e.preventDefault();
             // code to show the toast
