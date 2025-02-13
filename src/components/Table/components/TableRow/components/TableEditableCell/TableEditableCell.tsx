@@ -55,6 +55,6 @@ export const TableEditableCell = <TData,>({ onChange, row, column, isSaving, isN
   }
 
   const value = row.getValue(column.id);
-// @ts-expect-error
+// @ts-expect-error It complained about the union type being too complex
   return <ControlComponent value={value} onChange={onChangeValue} config={editor as never} isSaving={isSaving} />;
 };

@@ -53,7 +53,7 @@ export const EditableColumnEditor: React.FC<Props> = ({ value, onChange, data })
           {...TEST_IDS.editableColumnEditor.fieldType.apply()}
         />
       </InlineField>
-      { /** @ts-expect-error*/}
+      { /** @ts-expect-error It complained about the union type being too complex*/}
       {EditorConfig && <EditorConfig value={value as never} onChange={onChange} data={data} />}
     </>
   );

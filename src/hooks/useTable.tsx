@@ -247,7 +247,7 @@ export const useTable = ({
       const item = editableColumnEditorsRegistry.get(editorConfig.type);
 
       if (item) {
-        // @ts-expect-error
+        // @ts-expect-error It complained about the union type being too complex
         return item?.getControlOptions({ config: editorConfig as never, data });
       }
 

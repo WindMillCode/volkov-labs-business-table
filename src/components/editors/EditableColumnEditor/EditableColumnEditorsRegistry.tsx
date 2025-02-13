@@ -1,4 +1,4 @@
-import { dateTime,AppEvents } from '@grafana/data';
+import { AppEvents,dateTime } from '@grafana/data';
 import { getAppEvents } from '@grafana/runtime';
 import { DateTimePicker, FileDropzone, InlineField, InlineFieldRow, InlineSwitch, Input, Label, Select, TextArea } from '@grafana/ui';
 import { NumberInput } from '@volkovlabs/components';
@@ -322,7 +322,11 @@ export const editableColumnEditorsRegistry = createEditableColumnEditorsRegistry
           // Ensure the parsed value is an array
           return Array.isArray(parsedFiles) ? parsedFiles : [];
         } catch (err) {
-          console.error('Error parsing file data:', err);
+          const appEvents = getAppEvents();
+          appEvents.publish({
+            type: AppEvents.alertError.name,
+            payload: ['An error occurred while parsing file data. Please try again later or contact support if the issue persists.',err],
+          })
           return [];
         }
       }, [value]);

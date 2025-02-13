@@ -10,7 +10,8 @@
     {
       "files": ["**/*.test.tsx", "**/*.test.ts", "src/__testUtils__/**/*", "**/__mocks__/**/*"],
       "rules": {
-        "@typescript-eslint/no-explicit-any": "off"
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/ban-ts-comment": "off"
       }
     }
   ]
