@@ -18,7 +18,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 9,
+  "id": 4,
   "links": [],
   "panels": [
     {
@@ -263,223 +263,6 @@
               },
               "request": {
                 "datasource": "",
-                "payload": {
-                  "columns": [],
-                  "filters": [],
-                  "format": "table",
-                  "global_query_id": "",
-                  "refId": "",
-                  "root_selector": "",
-                  "source": "url",
-                  "type": "json",
-                  "url": "",
-                  "url_options": {
-                    "data": "",
-                    "method": "GET"
-                  }
-                }
-              }
-            },
-            "deleteRow": {
-              "enabled": false,
-              "permission": {
-                "mode": "",
-                "userRole": []
-              },
-              "request": {
-                "datasource": "",
-                "payload": {
-                  "columns": [],
-                  "filters": [],
-                  "format": "table",
-                  "global_query_id": "",
-                  "refId": "",
-                  "root_selector": "",
-                  "source": "url",
-                  "type": "json",
-                  "url": "",
-                  "url_options": {
-                    "data": "",
-                    "method": "GET"
-                  }
-                }
-              }
-            },
-            "expanded": false,
-            "items": [
-              {
-                "aggregation": "none",
-                "appearance": {
-                  "alignment": "start",
-                  "background": {
-                    "applyToRow": false
-                  },
-                  "colors": {},
-                  "header": {
-                    "fontSize": "md"
-                  },
-                  "width": {
-                    "auto": true,
-                    "min": 20,
-                    "value": 100
-                  },
-                  "wrap": true
-                },
-                "edit": {
-                  "editor": {
-                    "type": "file"
-                  },
-                  "enabled": true,
-                  "permission": {
-                    "mode": "",
-                    "userRole": []
-                  }
-                },
-                "enabled": true,
-                "field": {
-                  "name": "image_url",
-                  "source": "Windmillcode Development"
-                },
-                "filter": {
-                  "enabled": false,
-                  "mode": "client",
-                  "variable": ""
-                },
-                "footer": [],
-                "gauge": {
-                  "mode": "basic",
-                  "valueDisplayMode": "text",
-                  "valueSize": 14
-                },
-                "group": false,
-                "label": "",
-                "newRowEdit": {
-                  "editor": {
-                    "type": "string"
-                  },
-                  "enabled": false
-                },
-                "objectId": "",
-                "pin": "",
-                "preformattedStyle": false,
-                "scale": "auto",
-                "showingRows": 20,
-                "sort": {
-                  "descFirst": false,
-                  "enabled": false
-                },
-                "type": "image"
-              },
-              {
-                "aggregation": "none",
-                "appearance": {
-                  "alignment": "start",
-                  "background": {
-                    "applyToRow": false
-                  },
-                  "colors": {},
-                  "header": {
-                    "fontSize": "md"
-                  },
-                  "width": {
-                    "auto": true,
-                    "min": 20,
-                    "value": 100
-                  },
-                  "wrap": true
-                },
-                "edit": {
-                  "editor": {
-                    "type": "datetime"
-                  },
-                  "enabled": true,
-                  "permission": {
-                    "mode": "",
-                    "userRole": []
-                  }
-                },
-                "enabled": true,
-                "field": {
-                  "name": "my_datetime",
-                  "source": "Windmillcode Development"
-                },
-                "filter": {
-                  "enabled": false,
-                  "mode": "client",
-                  "variable": ""
-                },
-                "footer": [],
-                "gauge": {
-                  "mode": "basic",
-                  "valueDisplayMode": "text",
-                  "valueSize": 14
-                },
-                "group": false,
-                "label": "",
-                "newRowEdit": {
-                  "editor": {
-                    "type": "string"
-                  },
-                  "enabled": false
-                },
-                "objectId": "",
-                "pin": "",
-                "preformattedStyle": false,
-                "scale": "auto",
-                "showingRows": 20,
-                "sort": {
-                  "descFirst": false,
-                  "enabled": false
-                },
-                "type": "auto"
-              }
-            ],
-            "name": "Table-0",
-            "pagination": {
-              "defaultPageSize": 10,
-              "enabled": false,
-              "mode": "client"
-            },
-            "showHeader": true,
-            "update": {
-              "datasource": "decvdkzhqton4f",
-              "payload": {
-                "columns": [],
-                "filters": [],
-                "format": "table",
-                "global_query_id": "",
-                "refId": "",
-                "root_selector": "",
-                "source": "url",
-                "type": "json",
-                "url": "http://192.168.1.90:10197/api/admin/images",
-                "url_options": {
-                  "body_content_type": "application/json",
-                  "body_type": "raw",
-                  "data": "{\r\n  \"payload\":\"${payload.image_url}\"\r\n}",
-                  "method": "POST"
-                }
-              }
-            }
-          },
-          {
-            "actionsColumnConfig": {
-              "alignment": "start",
-              "fontSize": "md",
-              "label": "",
-              "width": {
-                "auto": false,
-                "value": 100
-              }
-            },
-            "addRow": {
-              "enabled": false,
-              "permission": {
-                "mode": "",
-                "userRole": []
-              },
-              "request": {
-                "datasource": "",
                 "payload": {}
               }
             },
@@ -692,10 +475,213 @@
               "enabled": false,
               "mode": "client"
             },
+            "rowHighlight": {
+              "backgroundColor": "transparent",
+              "columnId": "",
+              "enabled": false,
+              "scrollTo": "",
+              "variable": ""
+            },
             "showHeader": true,
             "update": {
               "datasource": "",
               "payload": {}
+            }
+          },
+          {
+            "actionsColumnConfig": {
+              "alignment": "start",
+              "fontSize": "md",
+              "label": "",
+              "width": {
+                "auto": false,
+                "value": 100
+              }
+            },
+            "addRow": {
+              "enabled": false,
+              "permission": {
+                "mode": "",
+                "userRole": []
+              },
+              "request": {
+                "datasource": "",
+                "payload": {}
+              }
+            },
+            "deleteRow": {
+              "enabled": false,
+              "permission": {
+                "mode": "",
+                "userRole": []
+              },
+              "request": {
+                "datasource": "",
+                "payload": {}
+              }
+            },
+            "expanded": false,
+            "items": [
+              {
+                "aggregation": "none",
+                "appearance": {
+                  "alignment": "start",
+                  "background": {
+                    "applyToRow": false
+                  },
+                  "colors": {},
+                  "header": {
+                    "fontSize": "md"
+                  },
+                  "width": {
+                    "auto": true,
+                    "min": 20,
+                    "value": 100
+                  },
+                  "wrap": true
+                },
+                "edit": {
+                  "editor": {
+                    "type": "file"
+                  },
+                  "enabled": true,
+                  "permission": {
+                    "mode": "",
+                    "userRole": []
+                  }
+                },
+                "enabled": true,
+                "field": {
+                  "name": "image_url",
+                  "source": "datetime and file upload"
+                },
+                "filter": {
+                  "enabled": false,
+                  "mode": "client",
+                  "variable": ""
+                },
+                "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
+                "group": false,
+                "label": "",
+                "newRowEdit": {
+                  "editor": {
+                    "type": "string"
+                  },
+                  "enabled": false
+                },
+                "objectId": "",
+                "pin": "",
+                "preformattedStyle": false,
+                "scale": "auto",
+                "showingRows": 20,
+                "sort": {
+                  "descFirst": false,
+                  "enabled": false
+                },
+                "type": "image"
+              },
+              {
+                "aggregation": "none",
+                "appearance": {
+                  "alignment": "start",
+                  "background": {
+                    "applyToRow": false
+                  },
+                  "colors": {},
+                  "header": {
+                    "fontSize": "md"
+                  },
+                  "width": {
+                    "auto": true,
+                    "min": 20,
+                    "value": 100
+                  },
+                  "wrap": true
+                },
+                "edit": {
+                  "editor": {
+                    "type": "string"
+                  },
+                  "enabled": false,
+                  "permission": {
+                    "mode": "",
+                    "userRole": []
+                  }
+                },
+                "enabled": true,
+                "field": {
+                  "name": "my_datetime",
+                  "source": "datetime and file upload"
+                },
+                "filter": {
+                  "enabled": false,
+                  "mode": "client",
+                  "variable": ""
+                },
+                "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
+                "group": false,
+                "label": "",
+                "newRowEdit": {
+                  "editor": {
+                    "type": "string"
+                  },
+                  "enabled": false
+                },
+                "objectId": "",
+                "pin": "",
+                "preformattedStyle": false,
+                "scale": "auto",
+                "showingRows": 20,
+                "sort": {
+                  "descFirst": false,
+                  "enabled": false
+                },
+                "type": "auto"
+              }
+            ],
+            "name": "Table-0",
+            "pagination": {
+              "defaultPageSize": 10,
+              "enabled": false,
+              "mode": "client"
+            },
+            "rowHighlight": {
+              "backgroundColor": "transparent",
+              "columnId": "",
+              "enabled": false,
+              "scrollTo": "",
+              "variable": ""
+            },
+            "showHeader": true,
+            "update": {
+              "datasource": "eecw54hhg2vi8f",
+              "payload": {
+                "columns": [],
+                "filters": [],
+                "format": "table",
+                "global_query_id": "",
+                "refId": "",
+                "root_selector": "",
+                "source": "url",
+                "type": "json",
+                "url": "http://192.168.1.90:10197/api/admin/images",
+                "url_options": {
+                  "body_content_type": "application/json",
+                  "body_type": "raw",
+                  "data": "{\r\n  \"payload\":\"${payload.image_url}\"\r\n}",
+                  "method": "POST"
+                }
+              }
             }
           }
         ],
@@ -705,7 +691,7 @@
           "export": false
         }
       },
-      "pluginVersion": "2.1.0",
+      "pluginVersion": "2.2.0",
       "targets": [
         {
           "datasource": {
@@ -799,24 +785,6 @@
         }
       ],
       "title": "Windmillcode Development",
-      "transformations": [
-        {
-          "id": "convertFieldType",
-          "options": {
-            "conversions": [
-              {
-                "destinationType": "other",
-                "targetField": "comments"
-              },
-              {
-                "destinationType": "other",
-                "targetField": "small_comments"
-              }
-            ],
-            "fields": {}
-          }
-        }
-      ],
       "type": "volkovlabs-table-panel"
     }
   ],
@@ -850,6 +818,6 @@
   "timezone": "browser",
   "title": "Windmillcode Development",
   "uid": "edxke3hyi04cgf",
-  "version": 10,
+  "version": 2,
   "weekStart": ""
 }
