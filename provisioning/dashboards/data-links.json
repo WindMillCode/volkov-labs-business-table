@@ -24,7 +24,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 1,
+  "id": 4,
   "links": [],
   "panels": [
     {
@@ -71,6 +71,15 @@
         "nestedObjects": [],
         "tables": [
           {
+            "actionsColumnConfig": {
+              "alignment": "start",
+              "fontSize": "sm",
+              "label": "",
+              "width": {
+                "auto": false,
+                "value": 100
+              }
+            },
             "addRow": {
               "enabled": false,
               "permission": {
@@ -134,6 +143,11 @@
                   "variable": ""
                 },
                 "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -159,6 +173,13 @@
               "enabled": false,
               "mode": "client"
             },
+            "rowHighlight": {
+              "backgroundColor": "#e6e6e6",
+              "columnId": "A:device",
+              "enabled": true,
+              "scrollTo": "start",
+              "variable": "Test"
+            },
             "showHeader": true,
             "update": {
               "datasource": "",
@@ -183,7 +204,17 @@
                 "type": "string",
                 "values": [
                   "device1",
-                  "device2"
+                  "device2",
+                  "device3",
+                  "device4",
+                  "device5",
+                  "device6",
+                  "device7",
+                  "device8",
+                  "device9",
+                  "device10",
+                  "device11",
+                  "device12"
                 ]
               }
             ],
@@ -239,6 +270,15 @@
         "nestedObjects": [],
         "tables": [
           {
+            "actionsColumnConfig": {
+              "alignment": "start",
+              "fontSize": "sm",
+              "label": "",
+              "width": {
+                "auto": false,
+                "value": 100
+              }
+            },
             "addRow": {
               "enabled": false,
               "permission": {
@@ -304,6 +344,11 @@
                   "variable": ""
                 },
                 "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -360,6 +405,11 @@
                   "variable": ""
                 },
                 "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -418,6 +468,11 @@
                 "footer": [
                   "mean"
                 ],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -474,6 +529,11 @@
                   "variable": ""
                 },
                 "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -527,6 +587,11 @@
                   "variable": ""
                 },
                 "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -547,6 +612,13 @@
             "pagination": {
               "enabled": false,
               "mode": "client"
+            },
+            "rowHighlight": {
+              "backgroundColor": "transparent",
+              "columnId": "",
+              "enabled": false,
+              "scrollTo": "",
+              "variable": ""
             },
             "showHeader": true,
             "update": {
@@ -711,6 +783,15 @@
         "nestedObjects": [],
         "tables": [
           {
+            "actionsColumnConfig": {
+              "alignment": "start",
+              "fontSize": "sm",
+              "label": "",
+              "width": {
+                "auto": false,
+                "value": 100
+              }
+            },
             "addRow": {
               "enabled": false,
               "permission": {
@@ -776,6 +857,11 @@
                   "variable": ""
                 },
                 "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -832,6 +918,11 @@
                   "variable": ""
                 },
                 "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -890,6 +981,11 @@
                 "footer": [
                   "mean"
                 ],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -946,6 +1042,11 @@
                   "variable": ""
                 },
                 "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -999,6 +1100,11 @@
                   "variable": ""
                 },
                 "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -1019,6 +1125,13 @@
             "pagination": {
               "enabled": false,
               "mode": "client"
+            },
+            "rowHighlight": {
+              "backgroundColor": "transparent",
+              "columnId": "",
+              "enabled": false,
+              "scrollTo": "",
+              "variable": ""
             },
             "showHeader": true,
             "update": {
@@ -1178,6 +1291,15 @@
         "nestedObjects": [],
         "tables": [
           {
+            "actionsColumnConfig": {
+              "alignment": "start",
+              "fontSize": "sm",
+              "label": "",
+              "width": {
+                "auto": false,
+                "value": 100
+              }
+            },
             "addRow": {
               "enabled": false,
               "permission": {
@@ -1243,6 +1365,11 @@
                   "variable": ""
                 },
                 "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -1299,6 +1426,11 @@
                   "variable": ""
                 },
                 "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -1357,6 +1489,11 @@
                 "footer": [
                   "mean"
                 ],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -1413,6 +1550,11 @@
                   "variable": ""
                 },
                 "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -1466,6 +1608,11 @@
                   "variable": ""
                 },
                 "footer": [],
+                "gauge": {
+                  "mode": "basic",
+                  "valueDisplayMode": "text",
+                  "valueSize": 14
+                },
                 "group": false,
                 "label": "",
                 "newRowEdit": {
@@ -1486,6 +1633,13 @@
             "pagination": {
               "enabled": false,
               "mode": "client"
+            },
+            "rowHighlight": {
+              "backgroundColor": "transparent",
+              "columnId": "",
+              "enabled": false,
+              "scrollTo": "",
+              "variable": ""
             },
             "showHeader": true,
             "update": {
@@ -1976,7 +2130,6 @@
           "export": true
         }
       },
-      "pluginVersion": "2.1.0",
       "targets": [
         {
           "datasource": {
@@ -3459,8 +3612,8 @@
     "list": [
       {
         "current": {
-          "text": "Test variable",
-          "value": "Test variable"
+          "text": "device6",
+          "value": "device6"
         },
         "hide": 1,
         "includeAll": false,
@@ -3468,11 +3621,11 @@
         "options": [
           {
             "selected": true,
-            "text": "Test variable",
-            "value": "Test variable"
+            "text": "device6",
+            "value": "device6"
           }
         ],
-        "query": "Test variable",
+        "query": "device6",
         "type": "custom"
       }
     ]
@@ -3485,6 +3638,6 @@
   "timezone": "",
   "title": "Data links",
   "uid": "ddyd0vor9qebke",
-  "version": 1,
+  "version": 2,
   "weekStart": ""
 }
